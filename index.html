@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Mutuku Portfolio</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Programming Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a professional with a background in economics and statistics, with experience at the County Government of Nakuru. I managed health data for various hospitals, ensuring accurate data collection and reporting. I also conducted analyses that informed decision-making and monitored county projects to assess progress and identify improvements. I contributed to the preparation of the Annual Progress Report for 2023/2024.
+            <br>
+            <br>
+           I am fluent in English and Swahili and work well in team environments, bringing strong communication and collaboration skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Programming Languages</h2>
+        <dl>
+            <dt>STATA</dt>
+            <dd>Software for Statistics and Data Science</dd>
+            <dt>SPSS</dt>
+            <dd>Statistical Package for the Social Sciences</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <section id="education">
+        <h2>Educational Background</h2>
+        <p>I hold a First-Class Honors degree in Economics and Statistics from Zetech University, Nairobi, with a GPA of 3.72. I am skilled in using STATA and SPSS for data analysis</p>
+        <a href="https://drive.google.com/file/d/1ajg6vz-e3_Korxj7fnIHnk8iONTr7Jiy/view?usp=sharing" download>Download My CV</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://docs.google.com/document/d/106AmMyMBzGhtYup0QBqNXeZdQFbR9NXT/edit?usp=sharing&ouid=107036675964811852227&rtpof=true&sd=true">Factors affecting interest rates volitality in Kenya</a>: Interest rates, international trade, and inflation influence foreign exchange rates in Kenya. Higher interest rates attract foreign investors, increasing demand for the Kenyan Shilling, while lower rates lead to reduced foreign capital inflows, causing depreciation. International trade affects currency values as a trade surplus strengthens the Shilling by increasing currency exchange for Kenyan goods, whereas a trade deficit raises demand for foreign currencies, leading to depreciation. Inflation impacts the Shilling’s value; high inflation reduces purchasing power and deters foreign investment, causing depreciation, while low inflation encourages investment and supports the currency’s stability in global markets. These factors show the connection between economic policies and foreign exchange rates.
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Eric Mutuku. All rights reserved.</p>
+    </footer>
+</body>
+</html>
